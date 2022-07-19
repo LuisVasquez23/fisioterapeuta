@@ -12,5 +12,5 @@ class CategoryController extends Controller
     {
         $this->data = array();
         $this->view->render("Category", $this->data);
-    }
+    }   
 }
